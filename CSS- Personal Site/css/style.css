@@ -1,0 +1,137 @@
+  body
+  {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: #e4f9f5;
+  }
+h1
+{
+  color: #66bfbf;
+  font-size: 5em;
+  margin:50px auto 0 auto;
+  font-family:'Sacramento', cursive;
+}
+h2
+{
+  color: #66bfbf;
+    font-weight: normal;
+  font-size: 2.5em;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+h3
+{
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+}
+p
+{
+  line-height: 2;
+}
+hr{
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.top-container
+{
+  padding-top: 100px;
+  background-color: #e4f9f5;
+  position: relative;
+}
+.middle-container
+{
+  padding: 100px 0;
+}
+.top-cloud
+{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud
+{
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+.skill-row
+{
+  width: 50%;
+  margin: 100px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+.computer
+{
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+.commitment
+{
+  width: 25%;
+  float: left;
+  padding-right:30px;
+}
+.reading
+{
+  width: 25%;
+  float: right;
+  padding-left:30px;
+}
+.intro
+{
+  width: 30%;
+  margin:auto;
+}
+.contact-message
+{
+  width: 40%;
+  margin: 40px auto 60px auto;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #66bfbf;
+	background:linear-gradient(to bottom, #66bfbf 5%, #66bfbf 100%);
+	background-color:#66bfbf;
+	border-radius:8px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:14px 17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #154682 5%, #7892c2 100%);
+	background-color:#66bfbf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.bottom-container
+{
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+a{
+  color: #eaf6f6;
+  margin:10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+.copy-right
+{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
